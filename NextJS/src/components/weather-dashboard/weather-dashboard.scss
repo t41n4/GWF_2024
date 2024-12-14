@@ -1,0 +1,21 @@
+.container {
+    @apply flex flex-col md:flex-row items-start justify-center min-h-screen  p-4 gap-4;
+
+    .action {
+        @apply flex flex-col flex-[30%] w-full  items-center justify-center p-4;
+        .search,.mail {
+            @apply flex flex-col items-center justify-center gap-2 w-full ;
+        } 
+ 
+    }
+
+    .weather {
+        @apply flex gap-2 flex-col  flex-[70%] min-h-[500px] items-center justify-center bg-white;
+        .current-weather{
+            @apply flex w-full ;
+        }
+        .forecast-weather {
+            @apply flex flex-row flex-wrap justify-center  gap-2 w-full;
+        }
+    }
+}

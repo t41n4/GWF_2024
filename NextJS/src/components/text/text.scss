@@ -1,0 +1,30 @@
+.text-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.text-destructive {
+    @apply text-red-500 text-sm
+}
+
+.text-success {
+    color: green;
+    font-weight: bold;
+}
+
+.text-warning {
+    color: yellow;
+    font-weight: bold;
+}
+
+.text-info {
+    color: blue;
+    font-weight: bold;
+}
+
+.text-disabled {
+    color: gray;
+    font-weight: bold;
+}

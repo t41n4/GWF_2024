@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="header">
+        Your daily weather
+    </div>
+    <div class="content">
+        <h1>Daily Weather Today <%= weather?.page?.location.localtime %> </h1>
+        <p>Condition: <%= weather?.page?.current.condition.text %> </p>
+        <p>Location: <%= weather?.page?.location.name %></p>
+        <p>Temperature: <%= weather?.page?.current.temp_c %> °C</p>
+        <p>Wind Speed: <%= weather?.page?.current.wind_kph %> km/h</p>
+        <p>Humidity: <%= weather?.page?.current.humidity %> %</p>
+    </div>
+    <div class="footer">
+        <p>You are receiving this email because you subscribed to the daily weather forecast.</p>
+    </div>
+</div>
